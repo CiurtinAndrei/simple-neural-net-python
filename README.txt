@@ -23,10 +23,3 @@ Ensure the CSV files for the dataset and labels are correctly formatted and plac
 Execute the Python script to initiate training of the MLP model with the provided dataset.
 Upon completion of training, the model's performance can be assessed on the testing set using various metrics, including accuracy, to gauge its effectiveness.
 Currently, this model has an average accuracy of about  0.94 (94 %), but the number of hidden layers, number of neurons per layer and the learning rate can be adjusted in order to obtain better results.
-
-Dependencies:
-
-Python 3.x
-scikit-learn
-pandas
-numpy
